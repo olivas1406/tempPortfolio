@@ -1,0 +1,163 @@
+/* ______            _      _   _____ _ _                
+|  _  \          (_)    | | |  _  | (_)               
+| | | |__ _ _ __  _  ___| | | | | | |___   ____ _ ___ 
+| | | / _` | '_ \| |/ _ \ | | | | | | \ \ / / _` / __|
+| |/ / (_| | | | | |  __/ | \ \_/ / | |\ V / (_| \__ \
+|___/ \__,_|_| |_|_|\___|_|  \___/|_|_| \_/ \__,_|___/ */
+* {
+    box-sizing: border-box;
+}
+
+.bigText {
+    width: 100%;
+    background-image: url("./bg3.jpg");
+    z-index: 20;
+}
+
+.danielOlivas {
+    float: left;
+    font-family: 'Ultra', serif;
+    font-size: 44px;
+    color: white;
+    margin-left: 5%;
+    margin-top: .5%;
+    text-shadow: -1px -1px 0 darkblue, 1px -1px 0 darkblue, -1px 1px 0 darkblue, 1px 1px 0 darkblue; 
+}
+
+.mainBody {
+    margin-top: 10%;
+    border: solid 1px darkblue;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.aboutMe {
+    margin-top: 2%;
+}
+
+.meMe {
+    color: darkblue;
+    text-shadow: -1px -1px 0 darkblue, 1px -1px 0 darkblue, -1px 1px 0 rgb(245, 244, 177), 1px 1px 0 rgb(245, 244, 177); 
+    text-align: center;
+    font-family: 'Josefin Slab', serif;
+}
+
+.git {
+    margin-left: 46%;
+    margin-top: -5.75%;
+}
+
+.portPic{
+    max-width: 375px;
+    border-radius: 20px;
+    border: solid 2px darkgray;
+}
+
+.portText {
+    color: black;
+}
+
+.emailLink {
+    float: right;
+    margin-right: 5%;
+    margin-top: 2%;
+    font-family: 'Great Vibes', cursive;
+}
+
+.D {
+    width: 24%;
+    float: left;
+    padding-right: 2%;
+    padding-bottom: 3%;
+    z-index: 1;
+}
+
+.wordsWords {
+    font-size: 20px;
+    font-family: 'Vollkorn', serif;
+}
+
+.links {
+    display: inline-block;
+}
+
+.firstLink {
+    color: white;
+    margin-left: 51%;
+}
+
+.sideBar {
+    margin-top: 10%;
+    text-align: center;
+    border: solid 1px darkblue;
+    border-radius: 30px;
+    height: 175px;
+    z-index: 2;
+}
+
+.portfolio {
+    padding-top: 3%;
+    padding-bottom: 10%;
+    text-align: center;
+    border: solid 1px darkblue;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.gitLink {
+    font-size: 13px;
+    text-align: center;
+}
+
+
+.port {
+    padding-top: 3%;
+}
+
+.contactMe {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 12%;
+    margin-top: 2%;
+    padding: 1%;
+    border: solid 1px darkblue;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.skills {
+    width: 100%;
+    text-align: center;
+    margin-top: 2%;
+    padding: 1%;
+    border: solid 1px darkblue;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.skillsText {
+    padding-bottom: 3%;
+    font-family: 'Vollkorn', serif;
+}
+
+.resume {
+    width: 100%;
+    text-align: center;
+    margin-top: 2%;
+    padding: 1%;
+    border: solid 1px darkblue;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+    margin-bottom: 12%;
+}
+
+footer {
+
+    height: 60px;
+    bottom: 0;
+    width: 100%;
+    background-image: url("./bg3.jpg");
+    text-align: center;
+    color: white;
+    border-top: solid 2px darkgray;
+    line-height: 4;
+}
